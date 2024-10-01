@@ -1,0 +1,191 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color:rgb(242, 255, 241); */
+    background-color: aliceblue;
+}
+
+.nav{
+    position: fixed;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding: 20px;  
+    justify-content: space-between;
+    
+}
+#lefts{
+    position: relative;
+    left: 700px;
+}
+#left{
+    position: relative;
+    left: 680px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color:black;
+    margin: 15px;
+
+    /* border: 10px;  */
+}
+
+
+.onav:hover{
+    background-color: rgb(181, 126, 248);
+    color: white;
+    transition: 0.5s;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+a:hover{
+    color: white;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+h1{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.mimg{
+    position:relative;
+    top: 5rem;
+}
+.img{
+  width: 100%;
+}
+/* .content{
+    position: relative;
+    z-index:1;
+     bottom: 350px;
+     margin-left: 60%;
+    font-size: 18px;
+} */
+
+button{
+    /* background-origin: padding-box; */
+    border-radius: 15px;
+    padding: 15px 25px ;
+     font-family: cursive;
+     font-size: 15px;
+     text-align: left;
+}
+
+.grid_container{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 100px;
+
+}
+.grid_containers{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+
+.grid_item_sale{
+    grid-column: 1 / 6;
+   width: 100%;
+}
+
+
+.grid_block_product{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.grid_featured_product{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.pp{
+    color: #94969f;
+    font-size: 18px;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+ 
+.login:hover{
+  background-color: rgb(55, 142, 219);
+  color: black;
+  border:1px solid rgb(15, 74, 74);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.reg:hover{
+    background-color: rgb(55, 142, 219);
+    color: black;
+    border:1px solid rgb(15, 74, 74);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+footer{
+    background-color: rgb(145, 180, 188);
+    color: white;
+    border-radius: 5px;
+    margin-top: 80px;
+  }
+  table{
+    position: relative;
+    /* right: -250px; */
+  }
+
+  .conclusion{
+    padding: 20px;
+  }
+  .cont{
+    color: #94969f;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+  }
+  .lef{
+    color: #94969f;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    position: relative;
+    float: right;   
+    bottom: 35px;               
+  }
+  .lef>p{
+    font-size: 15px;
+  }
